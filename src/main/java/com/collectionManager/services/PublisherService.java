@@ -16,9 +16,6 @@ public class PublisherService {
     @Autowired
     public PublisherService(PublisherRepository publisherRepository) {
         this.publisherRepository = publisherRepository;
-        Publisher publisher = new Publisher();
-        publisher.setName("Marvel");
-        publisherRepository.save(publisher);
     }
 
     public Publishers getListOfPublishers() {
