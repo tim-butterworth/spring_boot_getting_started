@@ -28,4 +28,8 @@ public class Volume {
     public void setIssues(List<Issue> issues) {
         this.issues = issues;
     }
+
+    public Long getId() {
+        return id;
+    }
 }

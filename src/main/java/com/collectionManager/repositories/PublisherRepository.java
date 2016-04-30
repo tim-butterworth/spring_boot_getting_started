@@ -10,4 +10,5 @@ import java.util.List;
 public interface PublisherRepository extends Repository<Publisher, Long> {
     List<Publisher> findAll();
     Publisher save(Publisher publisher);
+    Publisher findById(Long publisherId);
 }

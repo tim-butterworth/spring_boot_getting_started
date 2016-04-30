@@ -26,4 +26,8 @@ public class PublisherService {
 
         return publishers;
     }
+
+    public Publisher findPublisherById(Long publisherId) {
+        return publisherRepository.findById(publisherId);
+    }
 }

@@ -28,4 +28,8 @@ public class Publisher {
     public void setTitle(List<Title> title) {
         this.title = title;
     }
+
+    public Long getId() {
+        return id;
+    }
 }

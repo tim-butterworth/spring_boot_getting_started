@@ -28,4 +28,8 @@ public class Title {
     public void setVolumes(List<Volume> volumes) {
         this.volumes = volumes;
     }
+
+    public Long getId() {
+        return id;
+    }
 }
