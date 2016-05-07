@@ -16,15 +16,15 @@ public class Issue {
         return issueNumber;
     }
 
-    public void setIssueNumber(Integer issueNumber) {
-        this.issueNumber = issueNumber;
-    }
-
     public String getTitle() {
         return title;
     }
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public void setIssueNumber(Integer issueNumber) {
+        this.issueNumber = issueNumber;
     }
 }
